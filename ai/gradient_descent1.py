@@ -14,7 +14,7 @@ def vmul(v,c):#v是p偏微分後的結果(=g)
         v[x] = v[x]*c
     return v
 
-def vadd(p,v):n
+def vadd(p,v):
     for x in range(len(p)):
         p[x] += v[x]
     return p
