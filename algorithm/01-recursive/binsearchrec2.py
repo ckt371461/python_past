@@ -2,7 +2,7 @@ def rangeSearch (a,v,from_,to_):
     if (from_ > to_): return -1
     mid =int((from_+to_)/2)
     if a[mid]==v:return mid
-    elif a[mid]>v:
+    elif v < a[mid]:
         return rangeSearch(a,v,from_,mid-1)
     else:
         return rangeSearch(a,v,mid+1,to_)
