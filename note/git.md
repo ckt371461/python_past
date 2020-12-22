@@ -5,7 +5,7 @@ git add -A
 git add -A
 git add -A
 
-
+```py
 def OK(q1, q2):
     if q1['x']==q2['x']: return False
     if q1['y']==q2['y']: return False
@@ -37,3 +37,5 @@ def _8queen(q):
                 q.pop()   
 
 print(_8queen(q))
+```
+
