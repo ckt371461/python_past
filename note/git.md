@@ -1,9 +1,11 @@
 # git的用法
 
+```sh
 git add -A
 
 git add -A
 git add -A
+```
 
 ```py
 def OK(q1, q2):
